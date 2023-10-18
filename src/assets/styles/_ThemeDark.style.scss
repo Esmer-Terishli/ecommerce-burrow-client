@@ -1,0 +1,67 @@
+@import "../variables/variables.scss";
+
+.dark {
+  background-color: $darkMode;
+  color: $background !important;
+
+  h1,
+  footer ul li,
+  .accordion h2,
+  .accordion span,
+  .accordion .content,
+  .waviy span,
+  .test-swiper .icons,
+  .swiper-button-prev::after,
+  .swiper-button-next::after {
+    color: $background !important;
+  }
+
+  .nav-item,
+  .solve-section p {
+    color: $background !important;
+
+    &:hover {
+      color: $darkHover !important;
+    }
+
+    &::after {
+      background-color: $darkHover;
+    }
+  }
+
+  .nav-menu,
+  footer,
+  .accordion .item,
+  .testimonial {
+    background-color: #2b2d2e !important;
+  }
+
+  .solve-section {
+    background-color: #3f4345;
+  }
+
+  h2 {
+    color: $darkHover;
+  }
+
+  .solve-section b {
+    color: $darkMode;
+  }
+
+  .test-swiper b {
+    color: $colorHover;
+    border-bottom: 2px solid $background !important;
+  }
+
+  .modal h1 {
+    color: $colorText !important;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .dark {
+    .nav-list {
+      background-color: #2b2d2e !important;
+    }
+  }
+}

@@ -1,0 +1,26 @@
+@import "../variables/variables.scss";
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400&display=swap");
+
+.modal {
+  background-color: $background;
+  border: 2px solid $colorHover;
+
+  h1,
+  h2 {
+    color: $colorText;
+  }
+
+  h2 {
+    font-family: "Nunito Sans", sans-serif;
+  }
+
+  .offer {
+    background-color: $scrollHover;
+    color: #fff;
+  }
+
+  .close {
+    background-color: #fff;
+    color: $scrollHover;
+  }
+}

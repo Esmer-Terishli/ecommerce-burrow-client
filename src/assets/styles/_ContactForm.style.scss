@@ -1,0 +1,58 @@
+@import "../variables/variables.scss";
+
+form {
+  border: 1px solid $colorBorder;
+
+  h3 {
+    color: $colorText;
+  }
+
+  .form-control {
+    margin-right: 30px;
+    // width: 25%;
+
+    small {
+      color: $lineText;
+    }
+  }
+
+  .submit {
+    background-color: #198754;
+  }
+
+  .reset {
+    background-color: #dc3545;
+  }
+}
+
+.checkout-cart {
+  border: 1px solid $colorBorder;
+
+  h1 {
+    color: $scrollHover;
+  }
+
+  .return-cart {
+    color: #97badf;
+  }
+
+  .discount-code {
+    h1 {
+      color: $colorText;
+    }
+  }
+}
+
+
+@media only screen and (max-width: 1024px) {
+    label, input {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    label, input {
+        font-size: 10px;
+    }
+}
+

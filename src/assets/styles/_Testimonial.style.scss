@@ -1,0 +1,63 @@
+@import "../variables/variables.scss";
+
+.testimonial {
+  background-color: $background;
+  height: 100vh;
+
+  .test-swiper {
+    width: 70%;
+
+    .swiper {
+      height: 400px;
+
+      .swiper-slide {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        img {
+          width: 100px;
+          height: 100px;
+          object-fit: cover;
+        }
+
+        .icons {
+          color: $colorHover;
+          padding: 5px 0 10px;
+        }
+
+        b {
+          border-bottom: 2px solid $colorHover;
+        }
+      }
+
+      .swiper-button-prev::after,
+      .swiper-button-next::after {
+        font-size: 25px;
+        color: $colorHover;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .test-swiper {
+    width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .test {
+    flex-direction: column;
+
+    .swip {
+      width: 100% !important;
+
+      .swiper-slide {
+        justify-content: flex-start !important;
+      }
+    }
+  }
+}

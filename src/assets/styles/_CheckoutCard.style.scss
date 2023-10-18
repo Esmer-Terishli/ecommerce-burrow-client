@@ -1,0 +1,41 @@
+@import "../variables/variables.scss";
+
+.checkoutCard {
+  border: 1px solid $scrollHover;
+  height: 220px;
+  gap: 12px;
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    h3 {
+      color: $scrollHover;
+    }
+  }
+
+  .btn {
+    border: 1px solid $background;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &.plus {
+      border: 2px solid #198754;
+    }
+
+    &.minus {
+      border: 2px solid #dc3545;
+    }
+  }
+
+  .error {
+    color: #ab3131;
+    border: 1px solid $modalColor;
+    padding: 5px 40px;
+  }
+}

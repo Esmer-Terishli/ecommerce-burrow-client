@@ -1,0 +1,17 @@
+@import "../variables/variables.scss";
+
+.modal {
+  .error-icon {
+    color: $modalColor;
+
+    .error-border {
+      border-color: $modalColor;
+    }
+    h1 {
+      color: $colorText;
+    }
+    p {
+      color: $scrollHover;
+    }
+  }
+}

@@ -1,0 +1,37 @@
+@import "../variables/variables.scss";
+@import "../../assets/styles/mixins";
+@import url("https://fonts.googleapis.com/css2?family=Neucha&display=swap");
+
+footer {
+  background-color: $background;
+
+  h1 {
+    color: $colorHover;
+    font-size: 2.5rem;
+  }
+  ul {
+    li {
+      text-align: left;
+    }
+  }
+  h2 {
+    color: $colorHover;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  footer {
+    ul li,
+    h2,
+    h1,
+    address {
+      text-align: center !important;
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 900px) {
+  footer {
+    padding: 100px;
+  }
+}

@@ -1,0 +1,40 @@
+@import "../variables/variables.scss";
+@import "../../assets/styles/mixins";
+@import url("https://fonts.googleapis.com/css2?family=Neucha&display=swap");
+
+.accord {
+  h1 {
+    @include headerText;
+  }
+  .accordion {
+    width: 500px;
+
+    .item {
+      background: $background;
+      margin-bottom: 5px;
+      padding: 10px 20px;
+
+      .title {
+        color: $colorHover;
+        cursor: pointer;
+
+        span {
+          color: $colorHover;
+        }
+      }
+
+      .content {
+        color: $colorText;
+        max-height: 0;
+        overflow: hidden;
+        transition: all 0.8s cubic-bezier(0, 1, 0, 1);
+
+        &.show {
+          height: auto;
+          max-height: 9999px;
+          transition: all 0.8s cubic-bezier(1, 0, 1, 0);
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+@import "../variables/variables.scss";
+
+.search-container {
+  input,
+  span {
+    color: $scrollHover;
+  }
+  input {
+    outline-color: $scrollHover;
+
+    &:focus {
+      font-weight: 500;
+    }
+  }
+}
+
+.category-list {
+  li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $colorText;
+    font-family: "Roboto Slab", serif;
+    transition: 0.8s;
+    font-weight: 500;
+    cursor: pointer;
+    border: 1px solid $colorHover;
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+
+    &:hover {
+      background-color: $colorHover;
+      color: $background;
+      border: 2px solid $scrollHover;
+    }
+  }
+  .active {
+    background-color: $colorHover;
+    color: $background !important;
+    border: 2px solid $scrollHover;
+  }
+}
+
+.home {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+
+  h1 {
+    color: $colorText;
+  }
+}
+
+.filter-container option, .color-section option {
+  text-align: center;
+}
+
+.text-header {
+  color: $scrollHover;
+}
+
+@media only screen and (max-width: 1280px) {
+  .category-list {
+    li {
+      font-size: 12px;
+      margin: 0 5px 10px;
+    }
+}
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1280px) {
+  .home {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+  .home {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 16px;
+  }
+}

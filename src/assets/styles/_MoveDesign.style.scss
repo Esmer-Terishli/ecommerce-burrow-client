@@ -1,0 +1,9 @@
+@import "../variables/variables.scss";
+@import "../../assets/styles/mixins";
+@import url("https://fonts.googleapis.com/css2?family=Neucha&display=swap");
+
+.move-design {
+  h1 {
+    @include headerText;
+  }
+}

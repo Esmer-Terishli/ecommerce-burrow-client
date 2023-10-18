@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+@import "../variables/variables.scss";
+
+.navbar-with-shadow {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* İhtiyaca göre gölge özelliklerini ayarlayın */
+}
+
+.nav-list {
+  li {
+    color: $colorText;
+    font-family: "Roboto Slab", serif;
+    transition: 0.8s;
+    text-align: center;
+
+    .nav-item {
+      position: relative;
+
+      &:hover {
+        color: $colorHover;
+
+        &:after {
+          width: 100%;
+        }
+      }
+
+      &::after {
+        content: "";
+        position: absolute;
+        background-color: $colorHover;
+        height: 3px;
+        width: 0;
+        left: 0;
+        bottom: -5px;
+        transition: 0.5s;
+      }
+    }
+  }
+}
+
+.basket {
+  span {
+    font-size: 17px;
+    color: $lineText;
+  }
+}
+.nav-search input {
+  width: 120px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+
+  &:focus {
+    border-bottom: 1px solid $colorText;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .list {
+    ul {
+      li {
+        font-size: 0.8rem;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .list {
+    .nav-text {
+      margin-right: 0;
+      font-size: 26px;
+    }
+    .nav-end {
+      .nav-search input {
+        width: 100px;
+      }
+    }
+  }
+}
+
+.cart-count {
+  color: $scrollHover;
+}
+
+@media only screen and (max-width: 1024px) {
+  .nav-list {
+    background-color: white;
+  }
+}
+
+.waviy {
+  position: relative;
+}
+
+.waviy span {
+  position: relative;
+  display: inline-block;
+  animation: flip 5s infinite;
+  animation-delay: calc(0.2s * var(--i));
+  font-weight: bold;
+  color: $colorText;
+}
+
+@keyframes flip {
+  0%,
+  80% {
+    transform: rotateY(360deg);
+  }
+}

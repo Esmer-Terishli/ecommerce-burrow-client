@@ -1,0 +1,18 @@
+@import "../variables/variables.scss";
+
+.product-name {
+  color: $scrollHover;
+}
+.text-line {
+  text-decoration-color: $lineText;
+}
+.text-line,
+.text-colors {
+  color: $colorText;
+}
+
+@media only screen and (max-width: 1280px) {
+  .modal {
+    font-size: 14px;
+  }
+}

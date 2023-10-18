@@ -1,0 +1,23 @@
+@import "../variables/variables.scss";
+
+.scrollup {
+  bottom: -20%;
+  background-color: $colorHover;
+  padding: 0.5rem 0.7rem;
+  border-radius: 0.4rem;
+  z-index: 10;
+  transition: 0.4s;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $scrollHover;
+  }
+  .scrollup-icon {
+    font-size: 1.5rem;
+    color: $background;
+  }
+}
+
+.show-scroll {
+  bottom: 3rem;
+}

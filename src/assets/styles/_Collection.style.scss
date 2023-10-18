@@ -1,0 +1,33 @@
+@import "../variables/variables.scss";
+@import "../../assets/styles/mixins";
+@import url("https://fonts.googleapis.com/css2?family=Neucha&display=swap");
+
+.collect-furniture {
+  h1 {
+    @include headerText;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .swiper-slide {
+    width: 27%;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .swiper-slide {
+    width: 35%;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .swiper-slide {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .swiper-slide {
+    width: 80%;
+  }
+}

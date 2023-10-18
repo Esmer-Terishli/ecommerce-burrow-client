@@ -1,0 +1,18 @@
+@import "../variables/variables.scss";
+
+.modal {
+  .success-icon {
+    color: $modalColor;
+
+    .success-border {
+      border-color: $modalColor;
+    }
+    h1 {
+      color: $colorText;
+    }
+    p {
+      color: $scrollHover;
+    }
+  }
+}
+
