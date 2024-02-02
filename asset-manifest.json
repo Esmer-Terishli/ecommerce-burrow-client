@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/ecommerce-burrow-client/static/css/main.13006f57.css",
+    "main.js": "/ecommerce-burrow-client/static/js/main.d9a49d13.js",
+    "static/media/move-video.mp4": "/ecommerce-burrow-client/static/media/move-video.731312856efce5ea629d.mp4",
+    "static/media/hero-slider4.jpg": "/ecommerce-burrow-client/static/media/hero-slider4.ff5625f8490ea2e288a3.jpg",
+    "static/media/hero-slider1.jpg": "/ecommerce-burrow-client/static/media/hero-slider1.ec24670d3337cc3737d5.jpg",
+    "static/media/hero-slider3.jpg": "/ecommerce-burrow-client/static/media/hero-slider3.0faf59bbf24788829fe9.jpg",
+    "static/media/test-image.jpg": "/ecommerce-burrow-client/static/media/test-image.b0e491f68ea5f29106b3.jpg",
+    "static/media/accord-image.jpg": "/ecommerce-burrow-client/static/media/accord-image.3e340b82733ee65a2d7d.jpg",
+    "static/media/hero-slider2.jpg": "/ecommerce-burrow-client/static/media/hero-slider2.5b9d5e6ba1a16cfe0e6c.jpg",
+    "static/media/collection3.jpg": "/ecommerce-burrow-client/static/media/collection3.8f871e06eb2e553bd178.jpg",
+    "static/media/collection1.jpg": "/ecommerce-burrow-client/static/media/collection1.2daa284fe14dcb49cef4.jpg",
+    "static/media/collection2.jpg": "/ecommerce-burrow-client/static/media/collection2.d32f1226227575cd4945.jpg",
+    "static/media/advertising.jpg": "/ecommerce-burrow-client/static/media/advertising.a812a61a8eb2f27afbac.jpg",
+    "static/media/sofa2.jpg": "/ecommerce-burrow-client/static/media/sofa2.6a4bdcaeefad1db176e5.jpg",
+    "static/media/sofa1.jpg": "/ecommerce-burrow-client/static/media/sofa1.30a06f00e1f806b0b679.jpg",
+    "static/media/sofa4.jpg": "/ecommerce-burrow-client/static/media/sofa4.dbe905dff52bb2b9437d.jpg",
+    "static/media/sofa6.jpg": "/ecommerce-burrow-client/static/media/sofa6.d6511badd02828ae0210.jpg",
+    "static/media/sofa3.jpg": "/ecommerce-burrow-client/static/media/sofa3.83064e3960b3d99772b5.jpg",
+    "static/media/sofa5.jpg": "/ecommerce-burrow-client/static/media/sofa5.657d641328ef6e29ce4a.jpg",
+    "static/media/person3.jpg": "/ecommerce-burrow-client/static/media/person3.d913efae580d216ace09.jpg",
+    "static/media/person2.jpg": "/ecommerce-burrow-client/static/media/person2.15b6e7571d10a2e954f3.jpg",
+    "static/media/person1.jpg": "/ecommerce-burrow-client/static/media/person1.6ce4ffa31912af9a5f0f.jpg",
+    "index.html": "/ecommerce-burrow-client/index.html",
+    "main.13006f57.css.map": "/ecommerce-burrow-client/static/css/main.13006f57.css.map",
+    "main.d9a49d13.js.map": "/ecommerce-burrow-client/static/js/main.d9a49d13.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.13006f57.css",
+    "static/js/main.d9a49d13.js"
+  ]
+}
